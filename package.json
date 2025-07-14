@@ -1,0 +1,22 @@
+{
+  "name": "cc-ts",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tstl -p src/tsconfig.json",
+    "build-dev": "tstl -p src/tsconfig.dev.json"
+  },
+  "keywords": [],
+  "author": {
+    "name": "XiYang6666",
+    "email": "1782356858@qq.com"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@typescript-to-lua/language-extensions": "^1.19.0",
+    "lua-types": "^2.13.1",
+    "typescript": "^5.8.3",
+    "typescript-to-lua": "^1.31.3"
+  }
+}

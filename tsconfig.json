@@ -1,0 +1,25 @@
+{
+  "$schema": "https://raw.githubusercontent.com/TypeScriptToLua/TypeScriptToLua/master/tsconfig-schema.json",
+  "compilerOptions": {
+    "baseUrl": "./",
+    "outDir": "./dist",
+    "target": "esnext",
+    "noImplicitAny": false,
+    "strict": false,
+    "strictNullChecks": true,
+    "lib": [
+      "ESNext"
+    ],
+    "types": [
+      "./types/lua/",
+      "./types/cc/"
+    ]
+  },
+  "tstl": {
+    "luaTarget": "5.2",
+    "luaLibImport": "require",
+    "noResolvePaths": [
+      "cc.*"
+    ]
+  }
+}
