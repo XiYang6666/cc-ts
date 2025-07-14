@@ -1,0 +1,4 @@
+{
+    "generate_lualib_bundle": true,
+    "custom_lualib_bundle_name": null
+}

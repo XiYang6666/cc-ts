@@ -1,7 +1,7 @@
 {
   "$schema": "https://raw.githubusercontent.com/TypeScriptToLua/TypeScriptToLua/master/tsconfig-schema.json",
   "compilerOptions": {
-    "baseUrl": "./",
+    "baseUrl": "./src",
     "outDir": "./dist",
     "target": "esnext",
     "noImplicitAny": false,
@@ -20,6 +20,11 @@
     "luaLibImport": "require",
     "noResolvePaths": [
       "cc.*"
+    ],
+    "luaPlugins": [
+      {
+        "name": "../plugins/lualib_bundle_fixer.js"
+      }
     ]
   }
 }
