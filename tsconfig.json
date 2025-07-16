@@ -12,7 +12,8 @@
     ],
     "types": [
       "./types/lua/",
-      "./types/cc/"
+      "./types/cc/",
+      "./types/libs/"
     ]
   },
   "tstl": {

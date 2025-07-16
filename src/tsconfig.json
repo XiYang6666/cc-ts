@@ -5,6 +5,7 @@
     "types": [
       "../types/lua/",
       "../types/cc/",
+      "../types/libs/"
     ]
   }
 }
